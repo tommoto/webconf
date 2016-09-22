@@ -1,0 +1,14 @@
+/* add site fonts */
+
+/* BebasNue */
+@font-face {
+  @include add-font('BebasNue/BebasNeue-Regular', 'Bebas', 400);
+}
+/* HelveticaNeueCyr-Medium */
+@font-face {
+  @include add-font('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium', 'HelveticaNeueCyr', 400);
+}
+/* SinhalaMN */
+@font-face {
+  @include add-font('SinhalaMN/SinhalaMN', 'SinhalaMN', 400);
+}

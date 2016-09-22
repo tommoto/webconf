@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  outline: none!important;
+}
+
+p {
+ color: $color-p;
+}
+
+body {
+  color: $color;
+  text-transform: uppercase;
+  font-family: Bebas, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: (18px/12px);
+}
