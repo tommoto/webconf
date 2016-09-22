@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Webconf</title>
 
-
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,13 +17,289 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
 </head>
 <body>
 
+<!-- header -->
+<header class="site-header">
+    <div class="container-fluid" id="top-line"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-default">
+                    <h1 class="site-logo">
+                        <a class="navbar-brand" href="#">Web<span class="logo-color">Conf</span></a>
+                    </h1>
+                    <!-- Мобильное меню -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Основное меню -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <a class="link-menu" href="#">
+                                    <p>Main Info</p>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-menu" href="#">
+                                    <p>How to get it?</p>
+                                    Tickets
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-menu" href="#">
+                                    <p>Our other events </p>
+                                    Projects
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-menu" href="#">
+                                   <p>Latest  News</p>
+                                   Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-menu" href="#">
+                                    <p>Get  in  touch</p>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+            </div>
+        </div>
+    </div><!-- //.container -->
+</header><!-- //.site-header -->
 
 
+<!-- slider -->
+<section id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="assets/img/slide1.jpg" alt="slide 1">
+                    <div class="carousel-caption">
+                        <h2>
+                            <span>This month 1</span><br>
+                            Featured work
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam atque beatae
+                            consequatur deserunt esse facilis, illum, ipsum labore nostrum praesentium quaerat qui quia
+                            quod quos rem repellendus reprehenderit voluptates!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/slide2.jpg" alt="slide 2">
+                    <div class="carousel-caption">
+                        <h2>
+                            <span>This month 2</span><br>
+                            Featured work
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam atque beatae
+                            consequatur deserunt esse facilis, illum, ipsum labore nostrum praesentium quaerat qui quia
+                            quod quos rem repellendus reprehenderit voluptates!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/slide3.jpg" alt="slide 3">
+                    <div class="carousel-caption">
+                        <h2>
+                            <span>This month 3</span><br>
+                            Featured work
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam atque beatae
+                            consequatur deserunt esse facilis, illum, ipsum labore nostrum praesentium quaerat qui quia
+                            quod quos rem repellendus reprehenderit voluptates!</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
+<!-- featured -->
+<section class="stn-featured">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="feat-name">Chek out our latest projects</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores placeat reiciendis unde. Animi consectetur deserunt dignissimos doloribus fuga impedit in, laborum modi nobis, optio quibusdam rem saepe sint tempora voluptas?</p>
+                <button class="def-btn">find out more</button>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="feat-name">Guarantee 5 star quality work</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque distinctio eum iste minus nisi obcaecati optio quod voluptatum! Assumenda cumque dicta doloribus dolorum explicabo nobis quidem sapiente sed suscipit!</p>
+                <button class="def-btn">find out more</button>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="feat-name">Stay connected by reading the blog</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem blanditiis, consectetur cupiditate dolores esse ipsam, magnam maxime necessitatibus nesciunt odio perferendis, quae quas qui totam. Adipisci ipsum maxime officiis.</p>
+                <button class="def-btn">find out more</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- soptlights -->
+<section class="stn-spotlights">
+    <div class="stn-background container">
+        <h1>Spotlights</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"><a href="href#!"><img src="assets/img/thumbnail1.jpg" alt="thumbnail 1"></a>
+                <h2 class="spot-name">Many red cups</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem facilis, ipsam itaque molestias quasi? Asperiores consectetur eius eveniet fugit id, impedit maiores minus, molestias, natus porro quibusdam repellendus repudiandae.</p>
+                <button class="def-btn">View projects</button>
+            </div>
+            <div class="col-lg-3"><a href="href#!"><img src="assets/img/thumbnail2.jpg" alt="thumbnail 2"></a>
+                <h2 class="spot-name">Soft chairs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aliquam aperiam, consequuntur corporis, cum dolorem doloremque doloribus ea error excepturi exercitationem, nemo possimus qui quis quisquam ut vitae voluptate.</p>
+                <button class="def-btn">View projects</button>
+            </div>
+            <div class="col-lg-3"><a href="href#!"><img src="assets/img/thumbnail3.jpg" alt="thumbnail 3"></a>
+                <h2 class="spot-name">Fantastic views</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis facere ipsum laudantium minima! Aut doloribus et exercitationem, facere iste magnam maxime, necessitatibus nobis praesentium quasi quidem sint temporibus totam unde.</p>
+                <button class="def-btn">View projects</button>
+            </div>
+            <div class="col-lg-3"><a href="href#!"><img src="assets/img/thumbnail4.jpg" alt="thumbnail 4"></a>
+                <h2 class="spot-name">Big halls</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut delectus dolore eligendi eos, harum, hic illo molestiae quo quod repudiandae suscipit temporibus voluptas. Aperiam distinctio facilis modi unde ut.</p>
+                <button class="def-btn">View projects</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- speakers -->
+<section class="stn-speakers">
+    <div class="stn-background container">
+        <h1>Speakers</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="speak-circle">
+                    <img src="assets/img/chris.jpg" alt="Chris">
+                </div>
+                <h2>Chris Coyier</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquam aliquid aperiam blanditiis consequuntur distinctio ea eligendi, error expedita id porro, quam quasi repellendus soluta unde veniam voluptates. Numquam, quasi!</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="speak-circle">
+                    <img src="assets/img/adi-purdila.jpg" alt="Adi">
+                </div>
+                <h2>Adi Purdila</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda consequatur culpa ea eligendi, error expedita fugiat labore maxime minima nobis odio officiis placeat quisquam repellendus reprehenderit sunt unde voluptatibus!</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="speak-circle">
+                    <img src="assets/img/Paul-Irish.jpg" alt="Paul">
+                </div>
+                <h2>Paul Irish</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores eius facere ipsum sed! A architecto fuga libero minus voluptatum! Error facere incidunt itaque iure laborum minus nam quidem recusandae.</p>
+            </div>
+            <div class="col-lg-3">
+                <div class="speak-circle">
+                    <img src="assets/img/meyer.jpg" alt="Eric">
+                </div>
+                <h2>Eric Meyer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab deleniti dolor eligendi illum impedit minus molestias omnis reiciendis reprehenderit? Accusamus ad eligendi expedita id libero optio pariatur quae recusandae!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer -->
+<footer class="site-footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h2>Text Widget</h2>
+                <p>It will never be erased. Each day when you enter the room these</p>
+            </div>
+            <div class="col-lg-2">
+                <h2>Links Widget</h2>
+                <ul>
+                    <li>these words</li>
+                    <li>will you of the price paid</li>
+                    <li>will remind</li>
+                    <li>by Grissom</li>
+                    <li>career, press release</li>
+                    <li>will remind</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h2>Twitter Widget</h2>
+                <span id ="twet"></span>
+                <div class="twet-mes">
+                    <span>2 Days Ago</span>
+                    <p>I believe that this nation should commit itself to achieving th</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h2>Form Widget</h2>
+                <form action="#!" class="form-horizontal">
+                    <input class="frm-ctrl" type="text" name="name" placeholder="name">
+                    <input class="frm-ctrl" type="text" name="email" placeholder="email">
+                    <textarea class="frm-ctrl" name="message" placeholder="message" cols="30" rows="10"></textarea>
+                    <button id="btn-sub" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- social -->
+    <div class="container incons">
+        <a href="#!">
+            <span class="social" id="fb"></span>
+        </a>
+        <a href="#!">
+              <span class="social" id="tw"></span>
+        </a>
+        <a href="#!">
+            <span class="social" id="google"></span>
+        </a>
+    </div>
+
+</footer>
 
 </body>
 </html>
